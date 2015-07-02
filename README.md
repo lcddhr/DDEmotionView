@@ -8,7 +8,7 @@
 
 ## 效果
 
-![Masonry](./Resource/DDEmotion.gif)
+![Masonry](https://github.com/lcddhr/DDEmotionView/blob/master/resource/DDEmotion.gif)
 
 
 ##使用方法
