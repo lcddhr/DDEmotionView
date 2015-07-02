@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70821A341B44E094009131D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70821A331B44E094009131D5 /* main.m */; };
+		70821A371B44E094009131D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70821A361B44E094009131D5 /* AppDelegate.m */; };
+		70821A3A1B44E094009131D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70821A391B44E094009131D5 /* ViewController.m */; };
+		70821A3D1B44E094009131D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70821A3B1B44E094009131D5 /* Main.storyboard */; };
+		70821A3F1B44E094009131D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70821A3E1B44E094009131D5 /* Images.xcassets */; };
+		70821A421B44E094009131D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70821A401B44E094009131D5 /* LaunchScreen.xib */; };
+		70821A4E1B44E094009131D5 /* EmotionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70821A4D1B44E094009131D5 /* EmotionViewTests.m */; };
+		70821A5D1B44E170009131D5 /* DDEmotionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70821A5C1B44E170009131D5 /* DDEmotionView.m */; };
+		70821A5F1B44E19D009131D5 /* Emotion.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 70821A5E1B44E19D009131D5 /* Emotion.bundle */; };
+		B2C8E7A51B450CB00028288C /* DDEmotionScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C8E7A41B450CB00028288C /* DDEmotionScrollView.m */; };
+		B2C8E7A81B452D9A0028288C /* DDMagnifierView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C8E7A71B452D9A0028288C /* DDMagnifierView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70821A481B44E094009131D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70821A261B44E094009131D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70821A2D1B44E094009131D5;
+			remoteInfo = EmotionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70821A2E1B44E094009131D5 /* EmotionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmotionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70821A321B44E094009131D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70821A331B44E094009131D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70821A351B44E094009131D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		70821A361B44E094009131D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70821A381B44E094009131D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		70821A391B44E094009131D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		70821A3C1B44E094009131D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70821A3E1B44E094009131D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		70821A411B44E094009131D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		70821A471B44E094009131D5 /* EmotionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmotionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70821A4C1B44E094009131D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70821A4D1B44E094009131D5 /* EmotionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmotionViewTests.m; sourceTree = "<group>"; };
+		70821A5B1B44E170009131D5 /* DDEmotionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDEmotionView.h; sourceTree = "<group>"; };
+		70821A5C1B44E170009131D5 /* DDEmotionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDEmotionView.m; sourceTree = "<group>"; };
+		70821A5E1B44E19D009131D5 /* Emotion.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emotion.bundle; sourceTree = "<group>"; };
+		70821A611B44E2D0009131D5 /* DDEmotionViewConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDEmotionViewConfig.h; sourceTree = "<group>"; };
+		B2C8E7A31B450CB00028288C /* DDEmotionScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDEmotionScrollView.h; sourceTree = "<group>"; };
+		B2C8E7A41B450CB00028288C /* DDEmotionScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDEmotionScrollView.m; sourceTree = "<group>"; };
+		B2C8E7A61B452D9A0028288C /* DDMagnifierView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMagnifierView.h; sourceTree = "<group>"; };
+		B2C8E7A71B452D9A0028288C /* DDMagnifierView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMagnifierView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70821A2B1B44E094009131D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70821A441B44E094009131D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70821A251B44E094009131D5 = {
+			isa = PBXGroup;
+			children = (
+				70821A571B44E0C0009131D5 /* Class */,
+				70821A301B44E094009131D5 /* EmotionView */,
+				70821A4A1B44E094009131D5 /* EmotionViewTests */,
+				70821A2F1B44E094009131D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70821A2F1B44E094009131D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70821A2E1B44E094009131D5 /* EmotionView.app */,
+				70821A471B44E094009131D5 /* EmotionViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70821A301B44E094009131D5 /* EmotionView */ = {
+			isa = PBXGroup;
+			children = (
+				70821A351B44E094009131D5 /* AppDelegate.h */,
+				70821A361B44E094009131D5 /* AppDelegate.m */,
+				70821A381B44E094009131D5 /* ViewController.h */,
+				70821A391B44E094009131D5 /* ViewController.m */,
+				70821A3B1B44E094009131D5 /* Main.storyboard */,
+				70821A3E1B44E094009131D5 /* Images.xcassets */,
+				70821A401B44E094009131D5 /* LaunchScreen.xib */,
+				70821A311B44E094009131D5 /* Supporting Files */,
+			);
+			path = EmotionView;
+			sourceTree = "<group>";
+		};
+		70821A311B44E094009131D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70821A321B44E094009131D5 /* Info.plist */,
+				70821A331B44E094009131D5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70821A4A1B44E094009131D5 /* EmotionViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				70821A4D1B44E094009131D5 /* EmotionViewTests.m */,
+				70821A4B1B44E094009131D5 /* Supporting Files */,
+			);
+			path = EmotionViewTests;
+			sourceTree = "<group>";
+		};
+		70821A4B1B44E094009131D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70821A4C1B44E094009131D5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70821A571B44E0C0009131D5 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				70821A611B44E2D0009131D5 /* DDEmotionViewConfig.h */,
+				70821A5B1B44E170009131D5 /* DDEmotionView.h */,
+				70821A5C1B44E170009131D5 /* DDEmotionView.m */,
+				B2C8E7A61B452D9A0028288C /* DDMagnifierView.h */,
+				B2C8E7A71B452D9A0028288C /* DDMagnifierView.m */,
+				B2C8E7A31B450CB00028288C /* DDEmotionScrollView.h */,
+				B2C8E7A41B450CB00028288C /* DDEmotionScrollView.m */,
+				70821A5E1B44E19D009131D5 /* Emotion.bundle */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70821A2D1B44E094009131D5 /* EmotionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70821A511B44E094009131D5 /* Build configuration list for PBXNativeTarget "EmotionView" */;
+			buildPhases = (
+				70821A2A1B44E094009131D5 /* Sources */,
+				70821A2B1B44E094009131D5 /* Frameworks */,
+				70821A2C1B44E094009131D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmotionView;
+			productName = EmotionView;
+			productReference = 70821A2E1B44E094009131D5 /* EmotionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70821A461B44E094009131D5 /* EmotionViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70821A541B44E094009131D5 /* Build configuration list for PBXNativeTarget "EmotionViewTests" */;
+			buildPhases = (
+				70821A431B44E094009131D5 /* Sources */,
+				70821A441B44E094009131D5 /* Frameworks */,
+				70821A451B44E094009131D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70821A491B44E094009131D5 /* PBXTargetDependency */,
+			);
+			name = EmotionViewTests;
+			productName = EmotionViewTests;
+			productReference = 70821A471B44E094009131D5 /* EmotionViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70821A261B44E094009131D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DD;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = xiaomutou;
+				TargetAttributes = {
+					70821A2D1B44E094009131D5 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					70821A461B44E094009131D5 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 70821A2D1B44E094009131D5;
+					};
+				};
+			};
+			buildConfigurationList = 70821A291B44E094009131D5 /* Build configuration list for PBXProject "EmotionView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70821A251B44E094009131D5;
+			productRefGroup = 70821A2F1B44E094009131D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70821A2D1B44E094009131D5 /* EmotionView */,
+				70821A461B44E094009131D5 /* EmotionViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70821A2C1B44E094009131D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70821A3D1B44E094009131D5 /* Main.storyboard in Resources */,
+				70821A5F1B44E19D009131D5 /* Emotion.bundle in Resources */,
+				70821A421B44E094009131D5 /* LaunchScreen.xib in Resources */,
+				70821A3F1B44E094009131D5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70821A451B44E094009131D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70821A2A1B44E094009131D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70821A5D1B44E170009131D5 /* DDEmotionView.m in Sources */,
+				70821A3A1B44E094009131D5 /* ViewController.m in Sources */,
+				70821A371B44E094009131D5 /* AppDelegate.m in Sources */,
+				B2C8E7A81B452D9A0028288C /* DDMagnifierView.m in Sources */,
+				B2C8E7A51B450CB00028288C /* DDEmotionScrollView.m in Sources */,
+				70821A341B44E094009131D5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70821A431B44E094009131D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70821A4E1B44E094009131D5 /* EmotionViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70821A491B44E094009131D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70821A2D1B44E094009131D5 /* EmotionView */;
+			targetProxy = 70821A481B44E094009131D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70821A3B1B44E094009131D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70821A3C1B44E094009131D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70821A401B44E094009131D5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70821A411B44E094009131D5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70821A4F1B44E094009131D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		70821A501B44E094009131D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70821A521B44E094009131D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EmotionView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		70821A531B44E094009131D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EmotionView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		70821A551B44E094009131D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EmotionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmotionView.app/EmotionView";
+			};
+			name = Debug;
+		};
+		70821A561B44E094009131D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EmotionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmotionView.app/EmotionView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70821A291B44E094009131D5 /* Build configuration list for PBXProject "EmotionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70821A4F1B44E094009131D5 /* Debug */,
+				70821A501B44E094009131D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70821A511B44E094009131D5 /* Build configuration list for PBXNativeTarget "EmotionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70821A521B44E094009131D5 /* Debug */,
+				70821A531B44E094009131D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70821A541B44E094009131D5 /* Build configuration list for PBXNativeTarget "EmotionViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70821A551B44E094009131D5 /* Debug */,
+				70821A561B44E094009131D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70821A261B44E094009131D5 /* Project object */;
+}
