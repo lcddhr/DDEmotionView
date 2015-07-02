@@ -14,7 +14,7 @@ typedef void(^DDEmotionSelectBlock)(NSString *emotionName);
 
 @interface DDEmotionView : UIView
 
-@property (nonatomic, strong)   NSMutableArray *emotionPages;
+@property (nonatomic, strong)  NSMutableArray *emotionPages;
 
 @property (nonatomic, copy) DDEmotionSelectBlock selectBlock;
 

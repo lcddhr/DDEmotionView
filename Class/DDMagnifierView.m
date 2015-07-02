@@ -16,8 +16,6 @@
 }
 
 
-
-
 @end
 @implementation DDMagnifierView
 

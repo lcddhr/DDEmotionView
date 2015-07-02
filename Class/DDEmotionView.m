@@ -80,8 +80,6 @@
 
 - (void)updateRowAndcolum {
     
-    //更新列和行
-//    NSInteger count = DDScreenWidth / 45;
     colum++;
     if ((colum % rowEmotions) == 0) {
         row++;
@@ -205,23 +203,11 @@
     
     self.magnifierView.hidden = NO;
     //根据坐标获取表情的名字
-    NSString *imageName = [self emotionImageName:point];
+    [self emotionImageName:point];
     
-//    if (![self.selectFaceName isEqualToString:faceName] || self.selectFaceName == nil) {
-//        
-//        NSString *imageName = [item objectForKey:@"png"];
-//        UIImageView *faceItem = (UIImageView*)[magnifierView viewWithTag:2013];
-//        faceItem.image = [UIImage imageNamed:imageName];
-//        self.selectFaceName = faceName;
-//        
-//        //计算放大镜的位置
-//        magnifierView.left = (page*320) + colum*item_width;
-//        magnifierView.bottom = row*item_height+30;
-//    }
-    
-    }
+}
 
-- (NSString *)emotionImageName:(CGPoint)point {
+- (void)emotionImageName:(CGPoint)point {
     
     //页数
     NSInteger page = point.x / DDScreenWidth;
@@ -258,14 +244,11 @@
         self.magnifierView.image = image;
         self.magnifierView.title = emotionName;
         self.selectEmotionName = emotionName;
-//
         CGRect rect = self.magnifierView.frame;
         rect.origin.x = ( page * DDScreenWidth ) + aColum * DDEmotionItemWidth;
         rect.origin.y = aRow * DDEmotionItemHeigth - 50;
         self.magnifierView.frame = rect;
     }
-
-    return emotionName;
 }
 
 
